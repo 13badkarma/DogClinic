@@ -2,7 +2,7 @@ import time
 from enum import Enum
 from fastapi import FastAPI, status, HTTPException
 from pydantic import BaseModel
-import uvicorn
+# import uvicorn
 from typing import Any
 
 app = FastAPI()
