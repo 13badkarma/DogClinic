@@ -85,4 +85,4 @@ def get_dog_by_pk(pk: int, dog: Dog) -> Dog:
     return dogs_db[pk]
 
 
-uvicorn.run(app, port=8000)
+# uvicorn.run(app, port=8000)
